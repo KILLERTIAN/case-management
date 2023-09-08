@@ -21,20 +21,25 @@ function Support() {
 
                         <img src="images/icons8-emergency-64.png" alt="" />
                         Emergency
+                        <span>If you need help with a emergency case contact us through here</span>
                     </li>
                     <li className="sup-card">
                         <img src="images/icons8-law-64.png" alt="" />
                         Judge Councelling
+                        <span>If you want to discuss your case
+                            with a professional judge </span>
                     </li>
                     <li className="sup-card">
 
                         <img src="images/icons8-mail-64.png" alt="" />
                         Emails
+                        <span>Email us your doubts regarding our services</span>
                     </li>
                     <li className="sup-card">
 
                         <img src="images/icons8-error-64.png" alt="" />
                         Report error
+                        <span>Report any error /bug you are facing regarding the website services</span>
                     </li>
                 </ul>
             </section>
