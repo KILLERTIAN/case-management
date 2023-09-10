@@ -20,7 +20,7 @@ function App() {
         <Route path='/sign-up' />
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </Router>
 
   );
