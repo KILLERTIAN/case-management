@@ -9,6 +9,7 @@ function Citizen_section() {
     return (
         <>
             <sidebar_menu_citizen />
+            <h1>sidebar goes here</h1>
         </>
     )
 }
