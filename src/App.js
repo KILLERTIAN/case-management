@@ -6,6 +6,7 @@ import Main from './components/Main';
 import Support from './components/pages/Support';
 import Footer from './components/Footer';
 import Citizen_section from './components/pages/Citizen_section';
+import SignUp from './components/pages/Sign-Up';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path='/staff-section' />
         <Route path='/legal-database' />
         <Route path='/support' element={<Support />} />
-        <Route path='/sign-up' />
+        <Route path='/sign-up' element={<SignUp />} />
       </Routes>
 
       {/* <Footer /> */}
