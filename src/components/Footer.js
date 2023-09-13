@@ -27,16 +27,13 @@ function Footer() {
                     <div class='footer-link-items'>
                         <h2>About Us</h2>
                         <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/about'>Sources</Link>
                         <Link to='/about'>Terms of Service</Link>
                     </div>
                     <div class='footer-link-items'>
                         <h2>Contact Us</h2>
-                        <Link to='/sign-up'>Contact</Link>
+                        <Link to='/sign-up'>Get In Touch</Link>
                         <Link to='/sign-up'>Support</Link>
-                        <Link to='/sign-up'>Bug</Link>
-                        <Link to='/sign-up'>Report</Link>
+
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
@@ -49,8 +46,6 @@ function Footer() {
                     </div> */}
                     <div class='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
                         <Link to='/'>LinkedIn</Link>
                         <Link to='/'>Twitter</Link>
                     </div>
@@ -64,7 +59,7 @@ function Footer() {
                         </Link>
                     </div>
                     <small class='website-rights'>Case Management © 2023</small>
-                    <div class='social-icons'>
+                    {/* <div class='social-icons'>
                         <Link
                             class='social-icon-link facebook'
                             to='/'
@@ -97,7 +92,7 @@ function Footer() {
                         >
                             <ion-icon name="logo-linkedin"></ion-icon>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>
