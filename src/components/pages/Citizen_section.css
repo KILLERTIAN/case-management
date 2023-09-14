@@ -1,12 +1,64 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.citizen-sidebar {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
+.citizen-main-body {
+    width: 100%;
     height: 90vh;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    flex-direction: row;
+}
+
+.citizen-sec-image {
+    position: absolute;
+    height: 90vh;
+    width: 30vw;
+    z-index: 9;
+    left: 0;
+    top: 10vh;
+}
+
+.citizen-nav {
+    display: flex;
+    position: relative;
+    left: 15vw;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.citizen-question {
+    font-size: 3.5em;
+    color: #26212d;
+    font-weight: 600;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+.citizen-btn-nav {
+    margin: 50px;
+}
+
+.citizen-nav-button {
+    height: 200px;
+    width: 350px;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 1.8em;
+    font-weight: 500;
+    background-color: #dee5fb;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.citizen-nav-button:hover {
+    background-color: #def4fb;
+    transform: scale(1.012);
 }
