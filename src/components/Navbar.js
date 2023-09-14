@@ -9,8 +9,13 @@ function Navbar() {
             <nav className='navbar'>
                 <div className="navbar-container">
 
-                    <Link to='/' className='Navbar-logo'>Case management</Link>
+                    <Link to='/' className='Navbar-logo'>E-Justice Portal</Link>
                     <ul className="nav-items">
+                        <li className='nav-menu'>
+                            <Link to='/' className='nav-links'>
+                                Home
+                            </Link>
+                        </li>
                         <li className='nav-menu'>
                             <Link to='/citizen-section' className='nav-links'>
                                 Citizen's section
