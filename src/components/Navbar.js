@@ -17,15 +17,15 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-menu'>
-                            <Link to='/citizen-section' className='nav-links'>
-                                Citizen's section
+                            <Link to='/cases' className='nav-links'>
+                                Cases
                             </Link>
                         </li>
-                        <li className='nav-menu' >
+                        {/* <li className='nav-menu' >
                             <Link to='/staff-section' className='nav-links'>
                                 Staff section
                             </Link>
-                        </li>
+                        </li> */}
                         <li className='nav-menu'>
                             <Link to='/legal-database' className='nav-links'>
                                 Legal Database

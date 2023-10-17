@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-// import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import './Citizen_section.css'
+import './Citizen_section.css';
 
 
 function Citizen_section() {
@@ -14,15 +12,15 @@ function Citizen_section() {
                 <div className="citizen-nav">
                     <h1 className='citizen-question'>What would you like to do ?</h1>
                     <div className="citizen-btn-nav">
-                        <div>
-                            <button className="citizen-nav-button">
+                        <div className='citizen-btn-nav-sort'>
+                            <Link to='/new-case' className="citizen-nav-button">
                                 File a New Case
-                            </button>
-                            <button className="citizen-nav-button">Upcoming Hearing</button>
+                            </Link>
+                            <Link className="citizen-nav-button">Upcoming Hearing</Link>
                         </div>
-                        <div>
-                            <button className="citizen-nav-button">Past hearing</button>
-                            <button className="citizen-nav-button">Upload Evidence</button>
+                        <div className='citizen-btn-nav-sort'>
+                            <Link className="citizen-nav-button">Past hearing</Link>
+                            <Link className="citizen-nav-button">Upload Evidence</Link>
                         </div>
 
                     </div>

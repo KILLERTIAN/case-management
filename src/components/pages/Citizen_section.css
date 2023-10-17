@@ -27,6 +27,8 @@
 .citizen-nav {
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
     left: 15vw;
     height: 100%;
     flex-direction: column;
@@ -42,17 +44,32 @@
 }
 
 .citizen-btn-nav {
+    display: flex;
+    flex-direction: column;
     margin: 50px;
 }
 
+.citizen-btn-nav-sort {
+    display: flex;
+    flex-direction: row;
+    /* margin: 50px; */
+}
+
 .citizen-nav-button {
-    height: 200px;
-    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 10px;
+    height: 6em;
+    width: 12em;
     border: none;
     border-radius: 30px;
     margin: 10px;
     font-size: 1.8em;
     font-weight: 500;
+    color: #26212d;
     background-color: #dee5fb;
     cursor: pointer;
     transition: 0.15s;
