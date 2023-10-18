@@ -8,7 +8,7 @@ function New_case() {
 
     const [user, setUser] = useState(
         {
-            fName: '', lName: '', Email: '', Number: '',
+            fName: '', lName: '', Email: '', Number: '', Message: '',
         }
     )
     let name, value
@@ -23,13 +23,13 @@ function New_case() {
     const submitData = async (e) => {
         e.preventDefault();
 
-        if (!user.fName || !user.lName || !user.Email || !user.Number) {
+        if (!user.fName || !user.lName || !user.Email || !user.Number || !user.Message) {
             alert("Please fill out all fields.");
             return; // Prevent form submission
         }
 
         const {
-            fName, lName, Email, Number,
+            fName, lName, Email, Number, Message
         } = user;
         const res = await
             fetch("https://e-justice-portal-default-rtdb.firebaseio.com//userDataRecords.json", {
@@ -38,12 +38,12 @@ function New_case() {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    fName, lName, Email, Number,
+                    fName, lName, Email, Number, Message
                 })
             });
         if (res) {
             setUser({
-                fName: '', lName: '', Email: '', Number: '',
+                fName: '', lName: '', Email: '', Number: '', Message: '',
             })
             navigate('/thank-you');
         } else {
@@ -74,6 +74,12 @@ function New_case() {
                     <div><label htmlFor="">Enter your Phone Number</label>
 
                         <input type="number" placeholder='Enter your Phone Number' name='Number' value={user.Number} required onChange={data} /></div>
+
+                    <div>
+                        <label htmlFor="">Enter message
+                        </label>
+
+                        <input type="text" placeholder='Enter message' name='Message' value={user.Message} required onChange={data} /></div>
 
 
 
