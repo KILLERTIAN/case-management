@@ -76,10 +76,10 @@ function New_case() {
                         <input type="number" placeholder='Enter your Phone Number' name='Number' value={user.Number} required onChange={data} /></div>
 
                     <div>
-                        <label htmlFor="">Enter message
+                        <label htmlFor="">Enter detailed description of case
                         </label>
 
-                        <input type="text" placeholder='Enter message' name='Message' value={user.Message} required onChange={data} /></div>
+                        <input type="text" placeholder='Enter description' name='Message' value={user.Message} required onChange={data} /></div>
 
 
 
