@@ -4,7 +4,6 @@ import './Navbar.css';
 
 function Navbar() {
     return (
-        // <h1>hello</h1>
         <>
             <nav className='navbar'>
                 <div className="navbar-container">
