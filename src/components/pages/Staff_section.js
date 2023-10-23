@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-// import sidebar_menu_staff from './sidebar_menu_staff';
-import './Staff_section.css'
+
+import './Staff_section.css';
 
 
 function Staff_section() {
