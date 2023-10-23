@@ -20,11 +20,7 @@ function Navbar() {
                                 Cases
                             </Link>
                         </li>
-                        {/* <li className='nav-menu' >
-                            <Link to='/staff-section' className='nav-links'>
-                                Staff section
-                            </Link>
-                        </li> */}
+
                         <li className='nav-menu'>
                             <Link to='/legal-database' className='nav-links'>
                                 Legal Database
