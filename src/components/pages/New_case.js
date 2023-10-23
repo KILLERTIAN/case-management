@@ -83,26 +83,6 @@ function New_case() {
 
 
 
-                    {/* <label htmlFor="">Select your Course</label>
-
-                    <div className="select-course">
-                        <input className='course-checkbox' type="radio" name='Course' value="Kids" checked={user.Course === "Kids"} onChange={data} />
-                        <label htmlFor="">Kids <span>(3-10)</span></label>
-                        <input className='course-checkbox' type="radio" name='Course' value="Teens" checked={user.Course === "Teens"} onChange={data} />
-                        <label htmlFor="">Teens <span>(11-18)</span></label>
-                        <input className='course-checkbox' type="radio" name='Course' value="Adults" checked={user.Course === "Adults"} onChange={data} />
-                        <label htmlFor="">Adults <span>(19+)</span></label>
-                    </div>
-                    <label htmlFor="">Select your Timing</label>
-                    <div className="select-timing">
-                        <input className='course-checkbox' type="radio" name='Timing' value="Morning" checked={user.Timing === "Morning"} onChange={data} />
-                        <label htmlFor="">Morning</label>
-                        <input className='course-checkbox' type="radio" name='Timing' value="Afternoon" checked={user.Timing === "Afternoon"} onChange={data} />
-                        <label htmlFor="">Afternoon</label>
-                        <input className='course-checkbox' type="radio" name='Timing' value="Evening" checked={user.Timing === "Evening"} onChange={data} />
-                        <label htmlFor="">Evening</label>
-                    </div> */}
-
                     <button className="form-submit-button" onClick={submitData}>Enroll</button>
                 </div>
             </section>
