@@ -15,7 +15,7 @@ function Main() {
                     Get Started
                 </Link>
             </button>
-            {/* </div> */}
+
 
         </div>
 
