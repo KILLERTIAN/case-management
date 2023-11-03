@@ -22,6 +22,62 @@
 .MainContainer {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+    flex-direction: row;
+
+}
+
+.introTextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 75vh;
+    width: 400px;
+    /* background: rgba(255, 255, 255, 0.15); */
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 0 20px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.introTextContainer>h1 {
+    font-size: 0.3em;
+    margin: 30px 5px;
+}
+
+.introTextContainer>h3 {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    font-size: 0.2em;
+    margin: 5px 5px 5px 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.introTextContainer>h4 {
+    font-size: 0.14em;
+    margin: 30px 5px;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.Loginlink {
+    color: rgb(133, 233, 255);
+    margin: 0 3px;
+}
+
+.loginContainer {
+    display: flex;
+    align-items: center;
     flex-direction: column;
     height: 75vh;
     width: 400px;
@@ -31,6 +87,7 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
+    margin: 0 20px;
 }
 
 .welcometext {
@@ -47,11 +104,13 @@
     border-radius: 20px;
     background: #ffffff29;
     border: none;
+    color: #fff;
+    font-size: 0.14em;
 
 }
 
 .sign-up-input::placeholder {
-    color: rgb(183, 183, 183);
+    color: rgb(219, 219, 219);
     font-weight: 100;
     letter-spacing: 1px;
 }
