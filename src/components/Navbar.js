@@ -33,7 +33,7 @@ function Navbar() {
                         </li>
                         <button className='nav-button'>
                             <Link to='/sign-up' className='sign-up-link'>
-                                Sign Up
+                                Sign Up / Login
                             </Link>
                         </button>
                     </ul>
