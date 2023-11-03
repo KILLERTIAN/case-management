@@ -80,7 +80,7 @@
 
 
 .nav-button {
-    width: 100px;
+    width: auto;
     height: 40px;
     border: 2.5px solid #aaa9a9;
     background: none;
@@ -90,6 +90,7 @@
     font-weight: 600;
     letter-spacing: 0.045em;
     margin: 0 10px;
+    padding: 2px 5px;
     cursor: pointer;
     transition: 0.45s;
 }
