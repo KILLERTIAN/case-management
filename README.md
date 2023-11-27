@@ -1,14 +1,15 @@
-### `npm test`
+# E-Justice-Portal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This a project we made as a prototype for our SIH-2023 project 
 
-### `npm run build`
+Preview :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://github.com/KILLERTIAN/case-management/assets/77867638/6eb9c88f-1cf3-4fd9-9b0e-e4baaa644a40)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/KILLERTIAN/case-management/assets/77867638/97311e39-c150-4791-b7ce-33e4f1503f52)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/KILLERTIAN/case-management/assets/77867638/4bfad09c-e2f1-4c86-bcaf-2eaaf6efff1c)
+
+![image](https://github.com/KILLERTIAN/case-management/assets/77867638/cf2ff494-9677-4682-b884-adfcfda41e95)
+
+Deployed Link : https://e-justice-portal.web.app
